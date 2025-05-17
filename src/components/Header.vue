@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
+import logoSystra from '@/assets/logos/logo-systra.svg'
 
 const route = useRoute()
 
@@ -16,7 +17,7 @@ const links = [
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo Systra -->
       <router-link to="/">
-        <img src="@/assets/logos/logo-systra.svg" alt="Systra Logo" class="h-10" />
+        <img :src="logoSystra" alt="Systra Logo" class="h-10" />
       </router-link>
 
       <!-- Navigation -->

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Tramway1 from '@/assets/logos/tramway-1.png'
+import Tramway2 from '@/assets/logos/tramway-2.png'
 </script>
 
 <style scoped>
@@ -26,12 +28,12 @@
           <li>Investissements constants en R&D</li>
         </ul>
       </div>
-      <img src="@/assets/logos/tramway-1.png" alt="Tramway moderne" class="rounded-xl shadow-md" />
+      <img :src="Tramway1" alt="Tramway moderne" class="rounded-xl shadow-md" />
     </div>
 
     <!-- Section JO 2030 -->
     <div class="grid md:grid-cols-2 gap-8 items-center mb-16">
-      <img src="@/assets/logos/tramway-2.png" alt="Tramway Jeanne" class="rounded-xl shadow-md order-last md:order-first" />
+      <img :src="Tramway2" alt="Tramway Jeanne" class="rounded-xl shadow-md order-last md:order-first" />
       <div>
         <h2 class="text-3xl font-bold text-blue-900 mb-4">Projet phare : Tramway JO d’hiver 2030</h2>
         <p class="text-gray-700 mb-4">

@@ -1,5 +1,9 @@
 <script setup lang="ts">
-
+import systra from '@/assets/logos/systra.png'
+import logoFacebook from '@/assets/logos/logo-facebook.png'
+import logoInstagram from '@/assets/logos/logo-instagram.png'
+import logoTwitter from '@/assets/logos/logo-twitter.png'
+import logoLinkedin from '@/assets/logos/logo-linkedin.png'
 </script>
 
 <template>
@@ -7,22 +11,22 @@
     <div class="container mx-auto px-4">
       <!-- Logo principal -->
       <div class="mb-6">
-        <img src="@/assets/logos/systra.png" alt="SystrA Logo" class="mx-auto h-44" />
+        <img :src="systra" alt="SystrA Logo" class="mx-auto h-44" />
       </div>
 
       <!-- Réseaux sociaux -->
       <div class="flex justify-center items-center space-x-8 mb-6">
         <a href="#" aria-label="Facebook">
-          <img src="@/assets/logos/logo-facebook.png" alt="Facebook" class="h-6" />
+          <img :src="logoFacebook" alt="Facebook" class="h-6" />
         </a>
         <a href="#" aria-label="Instagram">
-          <img src="@/assets/logos/logo-instagram.png" alt="Instagram" class="h-6" />
+          <img :src="logoInstagram" alt="Instagram" class="h-6" />
         </a>
         <a href="#" aria-label="Twitter">
-          <img src="@/assets/logos/logo-twitter.png" alt="Twitter" class="h-6" />
+          <img :src="logoTwitter" alt="Twitter" class="h-6" />
         </a>
         <a href="#" aria-label="LinkedIn">
-          <img src="@/assets/logos/logo-linkedin.png" alt="LinkedIn" class="h-6" />
+          <img :src="logoLinkedin" alt="LinkedIn" class="h-6" />
         </a>
       </div>
 

@@ -32,14 +32,15 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+```
+
+### Deploy to [GitHub Pages](https://pages.github.com/)
+
+```sh
+npm run predeploy
+npm run deploy
 ```
